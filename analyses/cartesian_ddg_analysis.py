@@ -3,8 +3,8 @@
 # File to analyze cartesian ddg and residue_energy_breakdown#
 # Written by: Edwin Kamau                                   # 
 # created on: 12.07.2017                                    #
-# updated on: 01.13.18                                      # 
-# Usage: ddg_analysis.py  FUN project name                  #
+# updated on: 01.13.18                                              # 
+# Usage: cartesian_ddg_analysis.py  function project name                  #
 #############################################################
 
 # import all necessary functions
@@ -32,7 +32,7 @@ longer_names={'ALA': 'A', 'ARG': 'R', 'ASN': 'N', 'ASP': 'D',
 
 # take in input 
 if len(sys.argv) < 5:
-    print ('Usage: ddg_analysis.py <function_to_run> <project_name> <folder> <file_extension>\n folder:location where the files with the given extension are located\nfunction to run:\n dg_score:computes effect of mutation on stability,plots ddg score for each mutant\n\n pairwise_energies:computes residue-residue pairwise energies for a given mutant\n\n ddg_bind:computes binding energy metrics requires interface analyzer protocol to have been run before and data stored in a csv file\nNOTE:\nrequires chothia numbered pdb that is the same length as the renumbered pdb\nused for running the protocol.\nThe order of the chains should be HL:A where A is antigen')
+    print ('Usage: cartesian_ddg_analysis.py <function_to_run> <project_name> <folder> <file_extension>\n folder:location where the files with the given extension are located\nfunction to run:\n dg_score:computes effect of mutation on stability,plots ddg score for each mutant\n\n pairwise_energies:computes residue-residue pairwise energies for a given mutant\n\n ddg_bind:computes binding energy metrics requires interface analyzer protocol to have been run before and data stored in a csv file\nNOTE:\nrequires chothia numbered pdb that is the same length as the renumbered pdb\nused for running the protocol.\nThe order of the chains should be HL:A where A is antigen')
     sys.exit(0)
 #for i in range(len(sys.argv)):
  #  print(sys.argv[i])
