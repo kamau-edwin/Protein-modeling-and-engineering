@@ -3,7 +3,6 @@
 Python and Bash scripts utilized in conducting research in on HIV antibody prediction, engineering and HIV sequences during my thesis. 
 The project involved modeling and engineering antibody structure computationallyusing ROSETTA macromodeling software
 
-# BRANCHES
 ## protocols
 Contains Python and Bash scripts used to generate folders and files used to run ROSETTA executables for structure prediction, preparation, design and analyses in SGE and SLURM environment 
 ## analyses
