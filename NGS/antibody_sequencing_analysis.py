@@ -1,6 +1,6 @@
 #!/usr/bin/python
 ########################################################################
-# antibody pairing and fasta file generator
+# antibody sequencing analysis, pairing setup igblast imgt 
 #
 # Written by: Edwin Kamau 
 # Last modified: 6.28.2018 by Edwin Kamau
