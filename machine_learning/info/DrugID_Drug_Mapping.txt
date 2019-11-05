@@ -1,0 +1,33 @@
+AnonID	CellLine
+Drug1	4-HC
+Drug2	4-HC+Dox Combo
+Drug3	Baicalein
+Drug4	Bromopyruvate
+Drug5	Cetuximab
+Drug6	Chloroquine
+Drug7	Disulfiram
+Drug8	Doxorubicin
+Drug9	ERKi II (FR180304)
+Drug10	Everolimus
+Drug11	FTase inhibitor I
+Drug12	GM6001
+Drug13	GW5074
+Drug14	Herceptin
+Drug15	IKK 16
+Drug16	Imatinib
+Drug17	Mebendazole
+Drug18	Methyl Glyoxol
+Drug19	MG-132
+Drug20	Nelfinavir
+Drug21	Nilotinib
+Drug22	Olomoucine II
+Drug23	PD184352
+Drug24	PS-1145
+Drug25	QNZ
+Drug26	Sodium Dichloroacetate
+Drug27	TAPI-0 (IC-1)
+Drug28	TCS PIM-11
+Drug29	Valproic acid
+Drug30	Z-Leu-Leu-Leu-al
+Drug31	Z-Leu-Leu-Norvalinal
+Global	Global
